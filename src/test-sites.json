@@ -1,0 +1,664 @@
+[
+  {
+    "name": "Altona North Medical Group",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.8316,
+    "lng": 144.862
+  },
+  {
+    "name": "Ringwood - EACH",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.809,
+    "lng": 145.231
+  },
+  {
+    "name": "Mildura - Sunraysia Community Health",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -34.1923,
+    "lng": 142.153
+  },
+  {
+    "name": "Albury Wodonga Health - Wodonga Campus",
+    "website": "https://www.awh.org.au",
+    "lat": -36.131901,
+    "lng": 146.879364
+  },
+  { "name": "Austin Health - Austin Hospital", "website": "https://www.austin.org.au", "lat": -37.756676, "lng": 145.0592495 },
+  {
+    "name": "Ballarat Respiratory Clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.543876,
+    "lng": 143.781345
+  },
+  {
+    "name": "Barwon Health - North Geelong (Clinic and drive through clinic)",
+    "website": "https://www.barwonhealth.org.au/",
+    "lat": -38.085016,
+    "lng": 144.3552593
+  },
+  {
+    "name": "Barwon Health - University Hospital Geelong",
+    "website": "https://www.barwonhealth.org.au/",
+    "lat": -38.1511,
+    "lng": 144.3622093
+  },
+  { "name": "Bendigo Health", "website": "https://www.bendigohealth.com.au", "lat": -36.749626, "lng": 144.2797281 },
+  {
+    "name": "Bendigo Respiratory Clinic - Spring Gully Primary Health",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -36.95495,
+    "lng": 144.1218486
+  },
+  { "name": "Benalla Health", "website": "https://www.benallahealth.org.au/", "lat": -36.55548, "lng": 145.9957887 },
+  {
+    "name": "Eastern Health - Box Hill Hospital",
+    "website": "https://www.easternhealth.org.au",
+    "lat": -37.814199,
+    "lng": 145.118406
+  },
+  {
+    "name": "Eastern Health - Healesville (Senior Citizens Hall)",
+    "website": "https://www.easternhealth.org.au",
+    "lat": -37.652933,
+    "lng": 145.5164715
+  },
+  {
+    "name": "Carrum Downs Respiratory Clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.099974,
+    "lng": 145.1836744
+  },
+  {
+    "name": "Monash Health - Berwick",
+    "website": "https://monashhealth.org/contact/casey-hospital/",
+    "lat": -38.034684,
+    "lng": 145.3427041
+  },
+  {
+    "name": "Kyneton Health - Central Highlands Rural Health",
+    "website": "http://www.kynetonhealth.org.au/coronavirus/",
+    "lat": -37.253146,
+    "lng": 144.4389142
+  },
+  {
+    "name": "Monash Health - Dandenong",
+    "website": "https://monashhealth.org/contact/casey-hospital/",
+    "lat": -37.972237,
+    "lng": 145.2145233
+  },
+  {
+    "name": "Djerriwarrh Health Services - Melton",
+    "website": "https://www.djhs.org.au/find-us#c776",
+    "lat": -37.686934,
+    "lng": 144.5580643
+  },
+  { "name": "Echuca Regional Health", "website": "https://www.erh.org.au", "lat": -36.138804, "lng": 144.7502622 },
+  {
+    "name": "Goulburn Valley Health - Shepparton Campus",
+    "website": "https://gvhealth.org.au/about-us/locations-and-maps/goulburn-valley-health/",
+    "lat": -36.363587,
+    "lng": 145.404751
+  },
+  {
+    "name": "Geelong - Kardinia Health",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.190009,
+    "lng": 144.3239036
+  },
+  {
+    "name": "Maryborough District Health Service",
+    "website": "http://www.mdhs.vic.gov.au/",
+    "lat": -37.04516,
+    "lng": 143.7362827
+  },
+  {
+    "name": "Monash Health - Clayton",
+    "website": "https://monashhealth.org/contact/monash-medical-centre/",
+    "lat": -37.918012,
+    "lng": 145.1185615
+  },
+  {
+    "name": "Northeast Health Wangaratta",
+    "website": "https://www.northeasthealth.org.au/",
+    "lat": -36.354245,
+    "lng": 146.313772
+  },
+  { "name": "Northern Health - Northern Hospital", "website": "https://www.nh.org.au", "lat": -37.65323, "lng": 145.014584 },
+  {
+    "name": "Peninsula Health - Frankston Hospital",
+    "website": "https://www.peninsulahealth.org.au",
+    "lat": -38.151037,
+    "lng": 145.128326
+  },
+  {
+    "name": "Peninsula Health - Rosebud Hospital (Eleanora House)",
+    "website": "https://www.peninsulahealth.org.au",
+    "lat": -38.362363,
+    "lng": 144.8827279
+  },
+  {
+    "name": "Bass Coast Health - Phillip Island Health Hub",
+    "website": "https://www.basscoasthealth.org.au/",
+    "lat": -38.452166,
+    "lng": 145.241235
+  },
+  {
+    "name": "Portland District Health",
+    "website": "https://pdh.net.au/novel-coronavirus-covid-19-information-page/",
+    "lat": -38.341203,
+    "lng": 141.60519
+  },
+  {
+    "name": "Rosebud Respiratory Clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.356309,
+    "lng": 144.9014263
+  },
+  {
+    "name": "South West Healthcare - Warrnambool Campus",
+    "website": "https://www.southwesthealthcare.com.au",
+    "lat": -38.38117,
+    "lng": 142.4700553
+  },
+  {
+    "name": "Stawell Regional Health Services",
+    "website": "https://srh.org.au/our-services/respiratory-assessment-clinic/",
+    "lat": -37.058849,
+    "lng": 142.7809009
+  },
+  { "name": "St Vincent's Hospital Melbourne", "website": "https://svhm.org.au/home", "lat": -37.807365, "lng": 144.975095 },
+  { "name": "Sunshine Hospital", "website": "https://www.wh.org.au", "lat": -37.758238, "lng": 144.817031 },
+  {
+    "name": "Alfred Health - The Alfred Hospital",
+    "website": "https://www.alfred.org.au",
+    "lat": -37.846971,
+    "lng": 144.982416
+  },
+  { "name": "The Royal Children's Hospital", "website": "https://www.rch.org.au", "lat": -37.794752, "lng": 144.950597 },
+  {
+    "name": "Melbourne Health - The Royal Melbourne Hospital",
+    "website": "https://www.thermh.org.au/",
+    "lat": -37.799562,
+    "lng": 144.956105
+  },
+  {
+    "name": "Prahran Town Hall - Star Health",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.849871,
+    "lng": 144.9912158
+  },
+  {
+    "name": "Laverton - CoHealth",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.865298,
+    "lng": 144.7666894
+  },
+  {
+    "name": "Warragul respiratory clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.153262,
+    "lng": 145.940582
+  },
+  { "name": "Wimmera Health Care Group", "website": "http://www.whcg.org.au/", "lat": -36.713732, "lng": 142.2089534 },
+  {
+    "name": "Western District Health Service",
+    "website": "https://wdhs.net/v2/covid-19/",
+    "lat": -37.736658,
+    "lng": 142.0309292
+  },
+  {
+    "name": "Dandenong drive-through centre",
+    "website": "https://greaterdandenong.com/document/30669/carroll-lane-car-park (",
+    "lat": -37.990354,
+    "lng": 145.2080193
+  },
+  {
+    "name": "Port Melbourne Medical",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.834233,
+    "lng": 144.9439172
+  },
+  {
+    "name": "Sale - Wellington Respiratory Clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.108323,
+    "lng": 147.0812916
+  },
+  {
+    "name": "Wonthaggi Respiratory Clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.604984,
+    "lng": 145.5858104
+  },
+  {
+    "name": "Wodonga Respiratory Clinic",
+    "website": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -36.128388,
+    "lng": 146.8857597
+  },
+  {
+    "name": "Kyabram and District Health Service",
+    "website": "https://www.kyhealth.org.au/coronavirus",
+    "lat": -36.315132,
+    "lng": 145.0398791
+  },
+  { "name": "Sunbury Respiratory Clinic", "website": "", "lat": -37.58669, "lng": 144.7270536 },
+  {
+    "name": "Collingwood - CoHealth",
+    "website": "https://www.cohealth.org.au/get-tested-for-coronavirus/",
+    "lat": -37.798866,
+    "lng": 144.9904064
+  },
+  {
+    "name": "Footscray - CoHealth",
+    "website": "https://www.cohealth.org.au/get-tested-for-coronavirus/",
+    "lat": -37.797351,
+    "lng": 144.8734713
+  },
+  {
+    "name": "West Melbourne - CoHealth",
+    "website": "https://www.cohealth.org.au/get-tested-for-coronavirus/",
+    "lat": -37.805364,
+    "lng": 144.9432075
+  },
+  {
+    "name": "Kerang, Cohuna, Boort - Northern District Community Health",
+    "website": "https://www.ndch.org.au/",
+    "lat": -35.734393,
+    "lng": 143.9164187
+  },
+  {
+    "name": "Ferntree Gully - EACH",
+    "website": "https://www.each.com.au/coronavirus-covid-19-update/",
+    "lat": -37.876301,
+    "lng": 145.2847448
+  },
+  {
+    "name": "Yarra Junction - EACH",
+    "website": "https://www.each.com.au/coronavirus-covid-19-update/",
+    "lat": -37.781867,
+    "lng": 145.6128177
+  },
+  {
+    "name": "Lilydale - EACH",
+    "website": "https://www.each.com.au/coronavirus-covid-19-update/",
+    "lat": -37.775718,
+    "lng": 145.3552553
+  },
+  {
+    "name": "Wyndham Vale -  IPC Health (drive through clinic)",
+    "website": "https://bookings.nookal.com/bookings/company/NNRTG",
+    "lat": -37.871603,
+    "lng": 144.6108883
+  },
+  {
+    "name": "Deer Park - IPC Health (drive through clinic)",
+    "website": "https://bookings.nookal.com/bookings/company/NNRTG",
+    "lat": -37.767076,
+    "lng": 144.773606
+  },
+  {
+    "name": "ACL - St Albans",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -37.74511,
+    "lng": 144.802869
+  },
+  {
+    "name": "ACL - Glen Waverley",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -37.881958,
+    "lng": 145.1635684
+  },
+  {
+    "name": "ACL - Mornington",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -38.224351,
+    "lng": 145.0455769
+  },
+  {
+    "name": "ACL - Traralgon",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -38.193618,
+    "lng": 146.5394555
+  },
+  {
+    "name": "ACL - Mildura",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -34.187499,
+    "lng": 142.1538973
+  },
+  {
+    "name": "ACL - Werribee",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -37.89896,
+    "lng": 144.6658512
+  },
+  { "name": "Dorevitch - Heidelberg", "website": "", "lat": -37.759563, "lng": 145.0677716 },
+  { "name": "Dorevitch - Altona", "website": "", "lat": -37.866706, "lng": 144.8282635 },
+  { "name": "Dorevitch - Glenroy", "website": "", "lat": -37.706799, "lng": 144.9174394 },
+  { "name": "Dorevitch - Ferntree Gully", "website": "", "lat": -37.884513, "lng": 145.2739584 },
+  { "name": "4Cyte Pathology - Box Hill", "website": "covid19@4Cyte.com.au", "lat": -37.884513, "lng": 145.2739584 },
+  { "name": "4Cyte Pathology - Epping", "website": "covid19@4Cyte.com.au", "lat": -37.660451, "lng": 145.0263718 },
+  { "name": "4Cyte Pathology - Sunshine", "website": "covid19@4Cyte.com.au", "lat": -37.781579, "lng": 144.8320565 },
+  { "name": "4Cyte Pathology - Dandenong", "website": "covid19@4Cyte.com.au", "lat": -37.97394, "lng": 145.2146914 },
+  { "name": "4Cyte Pathology - Frankston", "website": "covid19@4Cyte.com.au", "lat": -38.156551, "lng": 145.131821 },
+  { "name": "4Cyte Pathology - Geelong", "website": "covid19@4Cyte.com.au", "lat": -38.170213, "lng": 144.3870036 },
+  { "name": "4Cyte Pathology - Hoppers Crossing", "website": "covid19@4Cyte.com.au", "lat": -37.878633, "lng": 144.6935234 },
+  { "name": "4Cyte Pathology - Heidelberg Heights", "website": "covid19@4Cyte.com.au", "lat": -37.754359, "lng": 145.0540003 },
+  { "name": "4Cyte Pathology - Croydon", "website": "covid19@4Cyte.com.au", "lat": -37.799543, "lng": 145.2888085 },
+  { "name": "Melbourne Pathology", "website": "", "lat": -37.790378, "lng": 144.9359926 },
+  { "name": "Melbourne Pathology", "website": "", "lat": -37.919913, "lng": 145.0389451 },
+  { "name": "Melbourne Pathology", "website": "", "lat": -38.145682, "lng": 145.1278506 },
+  { "name": "Melbourne Pathology", "website": "", "lat": -37.884411, "lng": 145.2936693 },
+  {
+    "name": "First Peoples' Health and Wellbeing",
+    "website": "https://www.firstpeopleshealthandwellbeing.org.au/",
+    "lat": -37.675754,
+    "lng": 145.0122231
+  },
+  { "name": "Pacific Epping", "website": "https://www.dhhs.vic.gov.au/coronavirus", "lat": -37.653222, "lng": 145.015798 },
+  {
+    "name": "Highpoint shopping Centre",
+    "website": "https://www.dhhs.vic.gov.au/coronavirus",
+    "lat": -37.772924,
+    "lng": 144.887064
+  },
+  { "name": "Watergardens", "website": "https://www.dhhs.vic.gov.au/coronavirus", "lat": -37.701326, "lng": 144.775837 },
+  { "name": "Pacific Werribee", "website": "https://www.dhhs.vic.gov.au/coronavirus", "lat": -37.875406, "lng": 144.680101 },
+  {
+    "name": "West Footscray Bunnings",
+    "website": "https://www.dhhs.vic.gov.au/coronavirus",
+    "lat": -37.802772,
+    "lng": 144.88411
+  },
+  { "name": "Northland", "website": "https://www.dhhs.vic.gov.au/coronavirus", "lat": -37.740652, "lng": 145.02992 },
+  { "name": "Westfield Knox", "website": "https://www.dhhs.vic.gov.au/coronavirus", "lat": -37.869651, "lng": 145.245094 },
+  {
+    "name": "Foster Respiratory Clinic",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.659689,
+    "lng": 146.2068148
+  },
+  {
+    "name": "Barwon Health (Torquay Community Health Centre)",
+    "website": "https://www.dhhs.vic.gov.au/coronavirus",
+    "lat": -38.328074,
+    "lng": 144.317634
+  },
+  {
+    "name": "Mildura Central Car Park (Target Loading Dock)",
+    "website": "https://www.dhhs.vic.gov.au/coronavirus",
+    "lat": -34.214851,
+    "lng": 142.146116
+  },
+  {
+    "name": "Bairnsdale Regional Health Service",
+    "website": "https://www.dhhs.vic.gov.au/coronavirus",
+    "lat": -37.831209,
+    "lng": 147.6055972
+  },
+  {
+    "name": "Bellarine",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.262421,
+    "lng": 144.5092847
+  },
+  { "name": "Colac Area Health", "website": "https://www.cah.vic.gov.au/", "lat": -38.340952, "lng": 143.5806865 },
+  {
+    "name": "Morwell - The Healthcare Centre",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.236318,
+    "lng": 146.3976448
+  },
+  {
+    "name": "Bairnsdale Respiratory Clinic",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.833385,
+    "lng": 147.610396
+  },
+  {
+    "name": "Shepparton Respiratory Clinic",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -36.382692,
+    "lng": 145.3971167
+  },
+  {
+    "name": "Rowville Respiratory Clinic",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.926571,
+    "lng": 145.2505662
+  },
+  {
+    "name": "Coolaroo",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.664565,
+    "lng": 144.931547
+  },
+  { "name": "Daylesford - Central Highland", "website": "www.chrh.org.au", "lat": -37.33742, "lng": 144.1443404 },
+  { "name": "Rural Health", "website": "", "lat": "", "lng": "" },
+  {
+    "name": "Swan Hill",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -35.340189,
+    "lng": 143.5549191
+  },
+  {
+    "name": "Wallan",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -37.418366,
+    "lng": 144.9763395
+  },
+  {
+    "name": "Keilor Community Hub",
+    "website": "https://www.brimbank.vic.gov.au/map/keilor-community-hub",
+    "lat": -37.716756,
+    "lng": 144.8291717
+  },
+  { "name": "Latrobe Regional Hospital", "website": "", "lat": -38.219854, "lng": 146.4687482 },
+  {
+    "name": "Horsham Respiratory Clinic",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -36.71134,
+    "lng": 142.20077
+  },
+  {
+    "name": "Craigieburn Centre - Northern Health",
+    "website": "https://www.nh.org.au/location/craigieburn/",
+    "lat": -37.596266,
+    "lng": 144.9170342
+  },
+  {
+    "name": "Great Ocean Road Health - Lorne Community Hospital",
+    "website": "https://www.greatoceanroadhealth.com.au/",
+    "lat": -38.54506,
+    "lng": 143.9784045
+  },
+  {
+    "name": "Great Ocean Road Health - Otway Health",
+    "website": "https://www.greatoceanroadhealth.com.au/",
+    "lat": -38.754196,
+    "lng": 143.6646809
+  },
+  { "name": "Melbourne Showgrounds (drive through)", "website": "", "lat": -37.783367, "lng": 144.9086915 },
+  {
+    "name": "Braybrook Hub - CoHealth",
+    "website": "https://www.cohealth.org.au/get-tested-for-coronavirus/",
+    "lat": -37.78633,
+    "lng": 144.8526213
+  },
+  { "name": "Mansfield District Hospital - Mt Buller", "website": "", "lat": -37.148078, "lng": 146.4506628 },
+  {
+    "name": "Broadmeadows Central",
+    "website": "https://www.dhhs.vic.gov.au/coronavirus",
+    "lat": -37.678805,
+    "lng": 144.921315
+  },
+  { "name": "NCN Health - Cobram campus", "website": "", "lat": -35.91653, "lng": 145.648904 },
+  { "name": "NCN Health - Numurkah campus", "website": "", "lat": -36.099209, "lng": 145.4435241 },
+  { "name": "Fawkner - Merri Health", "website": "", "lat": -37.703193, "lng": 144.9665742 },
+  { "name": "Pakenham - IYU Recreation Reserve", "website": "", "lat": -38.084786, "lng": 145.454047 },
+  { "name": "Casey Fields", "website": "", "lat": -38.118814, "lng": 145.3068669 },
+  { "name": "Chadstone Golfers Drive", "website": "", "lat": -37.876869, "lng": 145.0801388 },
+  { "name": "Melbourne Sports and Aquatic Centre", "website": "", "lat": -37.843141, "lng": 144.9593195 },
+  { "name": "Roxburgh Park Youth and Recreation Centre", "website": "", "lat": -37.630851, "lng": 144.9288902 },
+  { "name": "NCN Health - Nathalia campus", "website": "", "lat": -36.057236, "lng": 145.1953842 },
+  {
+    "name": "The Kilmore and District Hospital",
+    "website": "http://www.kilmoredistricthospital.org.au/",
+    "lat": -37.301988,
+    "lng": 144.9564016
+  },
+  { "name": "Bunnings Caroline Springs", "website": "", "lat": -37.760658, "lng": 144.7456456 },
+  { "name": "Niddrie Community Hub – cohealth", "website": "", "lat": -37.734764, "lng": 144.8867024 },
+  { "name": "Wingate Avenue Community Centre - cohealth", "website": "", "lat": -37.779492, "lng": 144.9172749 },
+  { "name": "Oak Park Sports and Aquatic Centre", "website": "", "lat": -37.721598, "lng": 144.9188794 },
+  { "name": "Westfield Airport West", "website": "", "lat": -37.715676, "lng": 144.88244 },
+  { "name": "Melbourne Airport", "website": "", "lat": -37.674766, "lng": 144.849934 },
+  {
+    "name": "Great South Coast (Warrnambool)",
+    "website": "https://www.health.gov.au/initiatives-and-programs/coronavirus-covid-19-gp-respiratory-clinics",
+    "lat": -38.381278,
+    "lng": 142.4842859
+  },
+  {
+    "name": "Seymour Health",
+    "website": "http://www.seymourhealth.org.au/index.php?page=COVID-19-Coronavirus",
+    "lat": -37.018673,
+    "lng": 145.1365626
+  },
+  { "name": "Wootten Road Reserve Tarneit", "website": "", "lat": -37.85705, "lng": 144.6579998 },
+  { "name": "Woodland Waters Reserve Mernda", "website": "", "lat": -37.611755, "lng": 145.0839839 },
+  { "name": "Diamond Valley Sports and Fitness Centre (Greensborough)", "website": "", "lat": -37.689458, "lng": 145.1092445 },
+  { "name": "Alexandra District Health", "website": "", "lat": -37.194078, "lng": 145.7150585 },
+  { "name": "Springers Keysborough", "website": "", "lat": -37.995522, "lng": 145.154423 },
+  {
+    "name": "Victorian Aboriginal Health Service",
+    "website": "https://www.vahs.org.au/",
+    "lat": -37.799393,
+    "lng": 144.9726783
+  },
+  { "name": "Yarrawonga Health", "website": "https://www.yh.org.au/COVID-19", "lat": -36.011308, "lng": 146.0047993 },
+  {
+    "name": "East Wimmera Health Service - Birchip campus",
+    "website": "www.ewhs.org.au",
+    "lat": -35.980156,
+    "lng": 142.9133853
+  },
+  {
+    "name": "East Wimmera Health Service - Charlton campus",
+    "website": "www.ewhs.org.au",
+    "lat": -36.268774,
+    "lng": 143.3508117
+  },
+  {
+    "name": "East Wimmera Health Service - Donald campus",
+    "website": "www.ewhs.org.au",
+    "lat": -36.360702,
+    "lng": 142.9629277
+  },
+  {
+    "name": "East Wimmera Health Service - St Arnaud campus",
+    "website": "www.ewhs.org.au",
+    "lat": -36.609555,
+    "lng": 143.238093
+  },
+  {
+    "name": "East Wimmera Health Service - Wycheproof campus",
+    "website": "www.ewhs.org.au",
+    "lat": -36.079244,
+    "lng": 143.2318128
+  },
+  { "name": "Bendigo - Latrobe University (Rural Health School)", "website": "", "lat": -36.749876, "lng": 144.2805255 },
+  { "name": "Bass Coast Health, Wonthaggi Hospital carpark", "website": "", "lat": -38.608277, "lng": 145.581316 },
+  { "name": "Seville Medical Centre", "website": "http://sevillemedicalcentre.com.au/", "lat": -37.777759, "lng": 145.4566011 },
+  {
+    "name": "Epichealth Yarra Glen (Yarra Glen Memorial Hall)",
+    "website": "https://www.epichealth.com.au/",
+    "lat": -37.656885,
+    "lng": 145.3720436
+  },
+  {
+    "name": "Monbulk Recreational Reserve",
+    "website": "https://drdansmedicalclinic.com.au/",
+    "lat": -37.87453,
+    "lng": 145.4067558
+  },
+  { "name": "Koo Wee Rup Community Centre", "website": "", "lat": -38.199962, "lng": 145.4856085 },
+  { "name": "Ballarat Senior Citizens Centre", "website": "", "lat": -37.563284, "lng": 143.8591386 },
+  {
+    "name": "Alpine Health - Bright",
+    "website": "https://www.alpinehealth.org.au/covid-19",
+    "lat": -36.733444,
+    "lng": 146.9664894
+  },
+  {
+    "name": "Alpine Health - Mt Beauty",
+    "website": "https://www.alpinehealth.org.au/covid-19",
+    "lat": -36.743228,
+    "lng": 147.1693449
+  },
+  {
+    "name": "Alpine Health - Myrtleford",
+    "website": "https://www.alpinehealth.org.au/covid-19",
+    "lat": -36.554545,
+    "lng": 146.725338
+  },
+  {
+    "name": "Mansfield District Hospital",
+    "website": "http://mdh.org.au/latest-news/covid-19-testing-clinic-mansfield/",
+    "lat": -37.051118,
+    "lng": 146.0794298
+  },
+  { "name": "Emerald - EACH", "website": "", "lat": -37.92884, "lng": 145.4430905 },
+  { "name": "Kilmore Medical Practice", "website": "", "lat": -37.306233, "lng": 144.947925 },
+  { "name": "Melbourne Showgrounds (walk in)", "website": "", "lat": -37.785633, "lng": 144.91716 },
+  { "name": "Colac Area Health", "website": "", "lat": -38.339001, "lng": 143.584885 },
+  {
+    "name": "Peninsula Health Mobile Service",
+    "website": "https://www.peninsulahealth.org.au/2020/03/20/covid-19-coronavirus-screening-clinic-information/",
+    "lat": -38.052391,
+    "lng": 145.112919
+  },
+  {
+    "name": "ACL - Dallas",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -37.66663,
+    "lng": 144.9437882
+  },
+  {
+    "name": "ACL - Sunshine",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -37.784812,
+    "lng": 144.8332678
+  },
+  {
+    "name": "ACL - Frankston",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -38.146523,
+    "lng": 145.1370905
+  },
+  {
+    "name": "ACL - Dandenong",
+    "website": "https://www.clinicallabs.com.au/about-us/doctor-media-releases/novel-coronavirus-vic/",
+    "lat": -37.98086,
+    "lng": 145.2111293
+  },
+  { "name": "4Cyte - Gladstone Park", "website": "covid19@4Cyte.com.au", "lat": -37.68596, "lng": 144.8811192 },
+  { "name": "4Cyte - Vermont", "website": "covid19@4Cyte.com.au", "lat": -37.856985, "lng": 145.1810343 },
+  { "name": "4Cyte - Skye", "website": "covid19@4Cyte.com.au", "lat": -38.110742, "lng": 145.1933342 },
+  { "name": "4Cyte - Truganina", "website": "covid19@4Cyte.com.au", "lat": -37.853403, "lng": 144.740261 },
+  { "name": "4Cyte - Greensborough", "website": "covid19@4Cyte.com.au", "lat": -37.683079, "lng": 145.117958 },
+  {
+    "name": "Peninsula Health Drive Through Clinic - Frankston & District Basketball Association",
+    "website": "",
+    "lat": -38.1201,
+    "lng": 145.1316872
+  },
+  { "name": "Newcomb Community Health Centre (Barwon Health)", "website": "", "lat": -38.171569, "lng": 144.3923422 },
+  {
+    "name": "Peninsula Health Mobile Service",
+    "website": "https://www.peninsulahealth.org.au/2020/03/20/covid-19-coronavirus-screening-clinic-information/",
+    "lat": -38.261014,
+    "lng": 145.1878603
+  }
+]

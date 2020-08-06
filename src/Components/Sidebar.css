@@ -1,0 +1,10 @@
+.sidebar {
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar > .ui.list > .item {
+  cursor: pointer;
+  text-align: left;
+}
