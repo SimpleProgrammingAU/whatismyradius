@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header as="h1" content="What is my radius" subheader="Where can I go during the Stage 4 lockdown?" />
-      <Segment >
+      <Segment>
         <AddressForm />
       </Segment>
       <Segment>
