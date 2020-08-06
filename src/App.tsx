@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Segment, Grid, List } from "semantic-ui-react";
+import { Header, Segment, Container, List } from "semantic-ui-react";
 import { AddressForm, Map, Sidebar } from "./Components";
 import "./App.css";
 
@@ -7,22 +7,16 @@ function App() {
   return (
     <div className="App">
       <Header as="h1" content="What is my radius" subheader="Where can I go during the Stage 4 lockdown?" />
-      <Segment>
+      <Segment >
         <AddressForm />
       </Segment>
       <Segment>
-        <Grid>
-          <Grid.Row>
-            <Grid.Column width={12}>
+        <Container className="mapContainer">
               <Map />
-            </Grid.Column>
-            <Grid.Column width={4}>
-              <Segment>
+              <Segment className="serviceContainer">
                 <Sidebar />
               </Segment>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
+        </Container>
       </Segment>
       <Segment>
         <List divided relaxed>
@@ -38,14 +32,6 @@ function App() {
               <List.Description>
                 Please be patient when selecting essential services from the sidebar. I promise I will add a loading spinner in
                 the next couple of days.
-              </List.Description>
-            </List.Content>
-          </List.Item>
-          <List.Item>
-            <List.Content>
-              <List.Header>Mobile view</List.Header>
-              <List.Description>
-                Sorry about the poor performance for mobile. I will add a mobile layout as soon as I can.
               </List.Description>
             </List.Content>
           </List.Item>
