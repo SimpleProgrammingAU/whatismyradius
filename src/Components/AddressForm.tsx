@@ -1,8 +1,9 @@
 import React, { Component, ChangeEvent } from "react";
 import { default as xhr } from "axios";
 import { connect } from "react-redux";
-import { Form, Button, Icon, Grid } from "semantic-ui-react";
+import { Form, Button, Icon, Container } from "semantic-ui-react";
 import { coordinatesUpdate, toggleDrag } from "../Actions";
+import './AddressForm.css';
 
 class AddressForm extends Component<any, any> {
   private _timeout: NodeJS.Timeout | null = null;
@@ -51,36 +52,26 @@ class AddressForm extends Component<any, any> {
     return (
       <div className="addressForm">
         <Form>
-          
-          <Grid>
-            <Grid.Row>
-              <Grid.Column width={11}>
-                <Form.Input
-                  type="text"
-                  value={this.state.address}
-                  onChange={this._searchUpdate}
-                  placeholder="Enter your address or click anywhere on the map"
-                  width={16}
-                />
-              </Grid.Column>
-              <Grid.Column width={2}>
-                <Button animated fluid onClick={this._search}>
-                  <Button.Content visible>Search</Button.Content>
-                  <Button.Content hidden>
-                    <Icon name="search" />
-                  </Button.Content>
-                </Button>
-              </Grid.Column>
-              <Grid.Column width={3}>
-                <Button animated fluid onClick={this._toggleLock}>
-                  <Button.Content visible>{this.state.lockButtonText}</Button.Content>
-                  <Button.Content hidden>
-                    <Icon name="lock" />
-                  </Button.Content>
-                </Button>
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
+          <Container className="formContainer">
+            <Form.Input
+              type="text"
+              value={this.state.address}
+              onChange={this._searchUpdate}
+              placeholder="Enter your address or click anywhere on the map"
+            />
+            <Button animated fluid onClick={this._search}>
+              <Button.Content visible>Search</Button.Content>
+              <Button.Content hidden>
+                <Icon name="search" />
+              </Button.Content>
+            </Button>
+            <Button animated fluid onClick={this._toggleLock}>
+              <Button.Content visible>{this.state.lockButtonText}</Button.Content>
+              <Button.Content hidden>
+                <Icon name="lock" />
+              </Button.Content>
+            </Button>
+          </Container>
         </Form>
       </div>
     );

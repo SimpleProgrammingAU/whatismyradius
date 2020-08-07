@@ -5,3 +5,26 @@
   width: 100%;
 }
 
+.mapContainer {
+  display: flex !important;
+}
+
+.serviceContainer {
+  width: 30% !important;
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin: 1em auto 0 auto;
+  }
+
+  .mapContainer {
+    flex-direction: column;
+  }
+
+  .serviceContainer {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+}
