@@ -50,7 +50,7 @@ class MapPane extends Component<any, any> {
 
   render = () => {
     const { coords, dragging, locations } = this.props;
-    const center = (this._lastCoords === coords || coords.length === 0) ? [this.state.lat, this.state.lng] : coords;
+    const center = this._lastCoords === coords || coords.length === 0 ? [this.state.lat, this.state.lng] : coords;
     const zoom = this._lastCoords === coords ? this.state.zoom : 13;
     this._lastCoords = coords;
     const homeMarker = coords.length === 2 ? <Marker position={coords} icon={this._homeIcon}></Marker> : null;
@@ -67,15 +67,21 @@ class MapPane extends Component<any, any> {
       locations.length === 0
         ? null
         : (locations as Location[]).map((location: Location) => {
-            if (location.distance < maxDistance)
-              return (
-                <Marker position={location.coords} icon={this._locationIcon} key={location.id}>
+            if (location.distance < maxDistance) {
+              const popup =
+                location.website.length === 0 ? (
+                  <Popup>{location.name}</Popup>
+                ) : (
                   <Popup>
                     <a href={location.website}>{location.name}</a>
                   </Popup>
+                );
+              return (
+                <Marker position={location.coords} icon={this._locationIcon} key={location.id}>
+                  {popup}
                 </Marker>
               );
-            else return null;
+            } else return null;
           });
     return (
       <div className="map-pane" id="radiusMap">
