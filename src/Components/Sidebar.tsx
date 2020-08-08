@@ -7,21 +7,11 @@ import { default as osm } from "query-overpass";
 import { POI, OSMFeature, Location } from "../Interfaces";
 import { addLocation, clearLocations } from "../Actions";
 import haversine from "haversine";
+import Config from "../classes/Config";
 
 class Sidebar extends Component<any, any> {
   private _selected: number = 0;
-  private static _poi: POI[] = [
-    { id: 1, label: "COVID Testing", osm: [""], icon: "syringe" },
-    { id: 2, label: "Supermarket", osm: [`"shop"="supermarket"`], icon: "shopping basket" },
-    { id: 3, label: "Chemist", osm: [`"amenity"="pharmacy"`, `"healthcare"="pharmacy"`], icon: "heart" },
-    { id: 4, label: "Doctor", osm: [`"amenity"="doctors"`, `"healthcare"="doctor"`], icon: "doctor" },
-    { id: 5, label: "Hospital", osm: [`"amenity"="hospital"`, `"healthcare"="hospital"`], icon: "hospital symbol" },
-    { id: 6, label: "Bakery", osm: [`"shop"="bakery"`, `"shop"="pastry"`], icon: "shop" },
-    { id: 7, label: "Butchers", osm: [`"shop"="butcher"`], icon: "shop" },
-    { id: 8, label: "Restaurant", osm: [`"amenity"="restaurant"`, `"amenity"="fast_food"`], icon: "food" },
-    { id: 9, label: "Coffee", osm: [`"amenity"="cafe"`, `"amenity"="cafe"`], icon: "coffee" },
-    { id: 10, label: "Bottle Shop", osm: [`"shop"="wine"`, `"shop"="alcohol"`], icon: "beer" },
-  ];
+  private static _poi: POI[] = Config.Services;
 
   private _clearList = () => {
     this._selected = 0;
@@ -117,10 +107,7 @@ class Sidebar extends Component<any, any> {
               return (
                 <List.Item key={location.id}>
                   <List.Content>
-                    <List.Header>{location.name}</List.Header>
-                    <List.Description>
-                      <a href={location.website}>{location.website}</a>
-                    </List.Description>
+                    <a href={location.website}>{location.name}</a>
                   </List.Content>
                 </List.Item>
               );
@@ -141,7 +128,7 @@ class Sidebar extends Component<any, any> {
         {header}
         {backBtn}
         <Divider />
-        <List animated verticalAlign="middle">
+        <List divided verticalAlign="middle">
           {linkList}
         </List>
       </div>

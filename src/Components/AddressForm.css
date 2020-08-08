@@ -1,32 +1,10 @@
-.formContainer {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-between;
-}
-
-.formContainer > .field {
-  width: 70% !important;
-  height: 100%;
-  margin-right: 10px !important;
-}
-
-.formContainer > .button {
-  width: 15% !important;
-  margin: 0 10px;
-  height: 100%;
+.poi-select {
+  display: none !important;
 }
 
 @media only screen and (max-width: 600px) {
-  .formContainer {
-    display: flex;
-    flex-direction: column !important;
-  }
-
-  .formContainer > .field {
-    width: 100% !important;
-  }
-
-  .formContainer > .button {
-    width: 100% !important;
+  .poi-select {
+    display: inherit !important;
+    z-index: 1000;
   }
 }

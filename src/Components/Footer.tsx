@@ -9,7 +9,10 @@ class Footer extends Component {
           <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Support Development" />
           <span style={{ marginLeft: "5px", fontSize: "19px !important" }}>Support Development</span>
         </a>
-        <p>This is an open source project. Please attribute source material.</p>
+        <p>
+          This is an <a href="https://github.com/SimpleProgrammingAU/whatismyradius">open source project</a>. Please attribute
+          source material.
+        </p>
         <p>
           Proudly developed and hosted by <a href="https://www.simpleprogramming.com.au/">Simple Programming.</a>
         </p>

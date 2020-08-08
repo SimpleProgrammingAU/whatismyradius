@@ -13,7 +13,7 @@ function App() {
       <Segment>
         <Container className="mapContainer">
               <Map />
-              <Segment className="serviceContainer">
+              <Segment className="sidebarContainer">
                 <Sidebar />
               </Segment>
         </Container>
@@ -32,14 +32,6 @@ function App() {
               <List.Description>
                 Please be patient when selecting essential services from the sidebar. I promise I will add a loading spinner in
                 the next couple of days.
-              </List.Description>
-            </List.Content>
-          </List.Item>
-          <List.Item>
-            <List.Content>
-              <List.Header>Detailed search results</List.Header>
-              <List.Description>
-                Search result list and clickable map pins for more information on local services.
               </List.Description>
             </List.Content>
           </List.Item>

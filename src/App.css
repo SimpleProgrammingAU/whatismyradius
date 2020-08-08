@@ -27,4 +27,8 @@
     width: 100% !important;
     margin-top: 15px !important;
   }
+
+  .sidebarContainer {
+    display: none !important;
+  }
 }

@@ -1,12 +1,15 @@
 import React, { Component, ChangeEvent } from "react";
 import { default as xhr } from "axios";
 import { connect } from "react-redux";
-import { Form, Button, Icon, Container } from "semantic-ui-react";
-import { coordinatesUpdate, toggleDrag } from "../Actions";
-import './AddressForm.css';
+import { Form, Button, Icon, Grid, Select } from "semantic-ui-react";
+import { addLocation, clearLocations, coordinatesUpdate, toggleDrag } from "../Actions";
+import "./AddressForm.css";
+import { POI } from "../Interfaces";
+import Config from "../classes/Config";
 
 class AddressForm extends Component<any, any> {
   private _timeout: NodeJS.Timeout | null = null;
+  private _poi: POI[] = Config.Services;
 
   constructor(props: any) {
     super(props);
@@ -43,43 +46,75 @@ class AddressForm extends Component<any, any> {
       });
   };
 
+  private _osm = (e: React.SyntheticEvent<HTMLElement, Event>, { value }: any) => {
+    Config.OSMQuery(this.props, value);
+    console.log(value);
+    e.preventDefault();
+  };
+
   private _toggleLock = () => {
-    (this.state.lockButtonText === "Lock Map") ? this.setState({lockButtonText: "Unlock Map"}) : this.setState({lockButtonText: "Lock Map"});
+    this.state.lockButtonText === "Lock Map"
+      ? this.setState({ lockButtonText: "Unlock Map" })
+      : this.setState({ lockButtonText: "Lock Map" });
     this.props.toggleDrag();
-  }
+  };
 
   render = () => {
+    const options = Config.Services.map((service) => {
+      return { key: service.id, value: service.id, text: service.label };
+    });
     return (
       <div className="addressForm">
         <Form>
-          <Container className="formContainer">
-            <Form.Input
-              type="text"
-              value={this.state.address}
-              onChange={this._searchUpdate}
-              placeholder="Enter your address or click anywhere on the map"
-            />
-            <Button animated fluid onClick={this._search}>
-              <Button.Content visible>Search</Button.Content>
-              <Button.Content hidden>
-                <Icon name="search" />
-              </Button.Content>
-            </Button>
-            <Button animated fluid onClick={this._toggleLock}>
-              <Button.Content visible>{this.state.lockButtonText}</Button.Content>
-              <Button.Content hidden>
-                <Icon name="lock" />
-              </Button.Content>
-            </Button>
-          </Container>
+          <Grid stackable>
+            <Grid.Row>
+              <Grid.Column width={10}>
+                <Form.Input
+                  type="text"
+                  value={this.state.address}
+                  onChange={this._searchUpdate}
+                  placeholder="Enter your address or click anywhere on the map"
+                />
+              </Grid.Column>
+              <Grid.Column width={6}>
+                <Grid doubling>
+                  <Grid.Row>
+                    <Grid.Column width={8}>
+                      <Button animated fluid onClick={this._search}>
+                        <Button.Content visible>Search</Button.Content>
+                        <Button.Content hidden>
+                          <Icon name="search" />
+                        </Button.Content>
+                      </Button>
+                    </Grid.Column>
+                    <Grid.Column width={8}>
+                      <Button animated fluid onClick={this._toggleLock}>
+                        <Button.Content visible>{this.state.lockButtonText}</Button.Content>
+                        <Button.Content hidden>
+                          <Icon name="lock" />
+                        </Button.Content>
+                      </Button>
+                    </Grid.Column>
+                  </Grid.Row>
+                </Grid>
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row className="poi-select">
+              <Grid.Column width={16}>
+                <Select placeholder="Select a Service" options={options} onChange={this._osm} fluid closeOnChange />
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
         </Form>
       </div>
     );
-  }
+  };
 }
 
 const mapStateToProps = (state: any) => {
-  return {};
+  return {
+    coords: state.coords,
+  };
 };
 
-export default connect(mapStateToProps, { coordinatesUpdate, toggleDrag })(AddressForm);
+export default connect(mapStateToProps, { addLocation, clearLocations, coordinatesUpdate, toggleDrag })(AddressForm);

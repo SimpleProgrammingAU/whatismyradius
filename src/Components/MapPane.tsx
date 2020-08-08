@@ -1,6 +1,6 @@
 import "./MapPane.css";
 import React, { Component } from "react";
-import { Map, Marker, TileLayer, Circle, Popup } from "react-leaflet";
+import { Map, Marker, TileLayer, Circle, Popup, Viewport } from "react-leaflet";
 import { LeafletMouseEvent, Icon } from "leaflet";
 import { connect } from "react-redux";
 import { coordinatesUpdate } from "../Actions";
@@ -8,7 +8,7 @@ import { Location } from "../Interfaces";
 
 class MapPane extends Component<any, any> {
   private _zoom = 10;
-  private _lastCoords = [];
+  private _lastCoords = [-37.779399, 144.961746];
   private _homeIcon: Icon;
   private _locationIcon: Icon;
 
@@ -17,6 +17,7 @@ class MapPane extends Component<any, any> {
     this.state = {
       lat: -37.779399,
       lng: 144.961746,
+      zoom: 13,
     };
     this._homeIcon = new Icon({
       iconUrl: "img/home-pin.svg",
@@ -30,6 +31,14 @@ class MapPane extends Component<any, any> {
     });
   }
 
+  private _viewPortChanged = (e: Viewport) => {
+    this.setState({
+      lat: (e.center as number[])[0],
+      lng: (e.center as number[])[1],
+      zoom: e.zoom as number,
+    });
+  };
+
   private _homeUpdate = (e: LeafletMouseEvent) => {
     if (!this.props.dragging) return;
     this.props.coordinatesUpdate([e.latlng.lat, e.latlng.lng]);
@@ -41,6 +50,9 @@ class MapPane extends Component<any, any> {
 
   render = () => {
     const { coords, dragging, locations } = this.props;
+    const center = (this._lastCoords === coords || coords.length === 0) ? [this.state.lat, this.state.lng] : coords;
+    const zoom = this._lastCoords === coords ? this.state.zoom : 13;
+    this._lastCoords = coords;
     const homeMarker = coords.length === 2 ? <Marker position={coords} icon={this._homeIcon}></Marker> : null;
     const homeRadius = coords.length === 2 ? <Circle center={coords} radius={5000}></Circle> : null;
     const maxDistance = (locations as Location[])
@@ -56,19 +68,27 @@ class MapPane extends Component<any, any> {
         ? null
         : (locations as Location[]).map((location: Location) => {
             if (location.distance < maxDistance)
-              return <Marker position={location.coords} icon={this._locationIcon} key={location.id}>
-                <Popup>
-                  <a href={location.website}>{location.name}</a>
-                </Popup>
-              </Marker>;
+              return (
+                <Marker position={location.coords} icon={this._locationIcon} key={location.id}>
+                  <Popup>
+                    <a href={location.website}>{location.name}</a>
+                  </Popup>
+                </Marker>
+              );
             else return null;
           });
-    this._zoom = coords !== this._lastCoords ? 13 : this._zoom;
     return (
       <div className="map-pane" id="radiusMap">
-        <Map dragging={dragging} center={[this.state.lat, this.state.lng]} zoom={this._zoom} onclick={this._homeUpdate}>
-          <TileLayer 
-            url={'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'}
+        <Map
+          useFlyTo
+          dragging={dragging}
+          center={center}
+          zoom={zoom}
+          onclick={this._homeUpdate}
+          onViewportChanged={this._viewPortChanged}
+        >
+          <TileLayer
+            url={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           {homeMarker}
