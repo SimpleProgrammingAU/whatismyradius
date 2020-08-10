@@ -1,5 +1,6 @@
 import "./MapPane.css";
 import React, { Component } from "react";
+import { Dimmer, Loader } from "semantic-ui-react";
 import { Map, Marker, TileLayer, Circle, Popup, Viewport } from "react-leaflet";
 import { LeafletMouseEvent, Icon } from "leaflet";
 import { connect } from "react-redux";
@@ -85,6 +86,9 @@ class MapPane extends Component<any, any> {
           });
     return (
       <div className="map-pane" id="radiusMap">
+        <Dimmer active={this.props.loading}>
+          <Loader>Loading content</Loader>
+        </Dimmer>
         <Map
           useFlyTo
           dragging={dragging}
@@ -109,6 +113,7 @@ class MapPane extends Component<any, any> {
 const mapStateToProps = (state: any) => {
   return {
     coords: state.coords,
+    loading: state.loading,
     dragging: state.dragging,
     locations: state.locations,
   };

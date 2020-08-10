@@ -7,11 +7,16 @@
 
 .mapContainer {
   display: flex !important;
+  flex-direction: row;
 }
 
 .serviceContainer {
   width: 30% !important;
   margin: 0 !important;
+}
+
+.sidebarContainer {
+  flex: 1;
 }
 
 @media only screen and (max-width: 600px) {

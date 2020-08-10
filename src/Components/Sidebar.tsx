@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { List, Header, Divider, Button } from "semantic-ui-react";
 import { default as osm } from "query-overpass";
 import { POI, OSMFeature, Location } from "../Interfaces";
-import { addLocation, clearLocations } from "../Actions";
+import { addLocation, clearLocations, toggleLoading } from "../Actions";
 import haversine from "haversine";
 import Config from "../classes/Config";
 
@@ -40,6 +40,7 @@ class Sidebar extends Component<any, any> {
           });
       });
     } else {
+      this.props.toggleLoading();
       const filter = Sidebar._poi.filter((poi) => poi.id === id)[0].osm;
       const query = `[out:json][timeout:60]; (
       ${filter
@@ -84,6 +85,7 @@ class Sidebar extends Component<any, any> {
             coords: [lat, lng],
           });
         });
+        this.props.toggleLoading();
       });
     }
   };
@@ -143,4 +145,4 @@ const mapStateToProps = (state: any) => {
   };
 };
 
-export default connect(mapStateToProps, { addLocation, clearLocations })(Sidebar);
+export default connect(mapStateToProps, { addLocation, clearLocations, toggleLoading })(Sidebar);

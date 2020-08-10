@@ -17,6 +17,14 @@ const dragging = (isDragging = true, action: Action<undefined>): boolean => {
   return isDragging;
 };
 
+const loading = (isLoading = false, action: Action<undefined>): boolean => {
+  switch (action.type) {
+    case "TOGGLE_LOADING":
+      return !isLoading;
+  }
+  return isLoading;
+};
+
 const locations = (locations: Location[] = [], action: Action<Location>): Location[] => {
   switch (action.type) {
     case "CLEAR_LOCATIONS":
@@ -30,5 +38,6 @@ const locations = (locations: Location[] = [], action: Action<Location>): Locati
 export default combineReducers({
   coords,
   dragging,
+  loading,
   locations,
 });
