@@ -1,10 +1,11 @@
 {
   "name": "what-is-my-radius",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Simple Programming",
   "private": true,
   "dependencies": {
     "axios": "0.19.2",
+    "countdown": "2.6.0",
     "haversine": "1.1.1",
     "leaflet": "1.6.0",
     "query-overpass": "1.5.5",
@@ -22,6 +23,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@types/countdown": "0.0.7",
     "@types/haversine": "1.1.4",
     "@types/react-leaflet": "2.5.2",
     "@types/jest": "^24.9.1",
