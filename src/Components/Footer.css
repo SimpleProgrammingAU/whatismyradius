@@ -5,6 +5,7 @@
   width: 100%;
   background-color: #efefef;
   padding: 1em 5em;
+  z-index: 1000;
 }
 
 .Footer p {
