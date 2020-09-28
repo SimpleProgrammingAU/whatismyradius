@@ -69,12 +69,16 @@ class AddressForm extends Component<any, any> {
           <Grid stackable>
             <Grid.Row>
               <Grid.Column width={10}>
+                <Form.Field>
+                <label htmlFor="address">Enter Address</label>
                 <Form.Input
+                  name="address"
                   type="text"
                   value={this.state.address}
                   onChange={this._searchUpdate}
                   placeholder="Enter your address or click anywhere on the map"
                 />
+                </Form.Field>
               </Grid.Column>
               <Grid.Column width={6}>
                 <Grid doubling>

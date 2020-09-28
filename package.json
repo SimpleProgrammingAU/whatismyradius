@@ -1,6 +1,6 @@
 {
   "name": "what-is-my-radius",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Simple Programming",
   "private": true,
   "dependencies": {
@@ -31,6 +31,7 @@
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "7.1.9",
+    "critical": "2.0.1",
     "gzipper": "4.0.1"
   },
   "scripts": {
@@ -38,7 +39,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postbuild": "gzipper c ./build ./gzip -v"
+    "postbuild": "node critical && gzipper c ./build ./gzip -v"
   },
   "eslintConfig": {
     "extends": "react-app"

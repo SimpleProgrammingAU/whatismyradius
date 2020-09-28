@@ -3,7 +3,7 @@ import cd from "countdown";
 import { Header } from "semantic-ui-react";
 
 class Countdown extends Component<any, any> {
-  private _lockdownStart = new Date("2020-08-02 18:00:00+10:00");
+  private _lockdownStart = new Date("2020-09-28 05:00:00+10:00");
 
   constructor(props: any) {
     super(props);
@@ -25,7 +25,7 @@ class Countdown extends Component<any, any> {
   render() {
     return (
       <Header as="h3" block>
-        Well done Melbourne! We've been in Stage 4 lockdown for {this.state.countDownText}.
+        Melbourne is {this.state.countDownText} of three weeks (pending case numbers) into Step 2 of the return to COVID-Normal.
       </Header>
     );
   }
